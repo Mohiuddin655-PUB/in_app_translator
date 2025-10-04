@@ -1,7 +1,8 @@
 name: in_app_translator
-description: "A new Flutter project."
+description: "A lightweight Flutter localization manager that provides multi-locale support, automatic caching,
+background translations, fallback locales, and easy integration via a flexible delegate system."
 version: 1.0.0
-homepage:
+repository: https://github.com/Mohiuddin655-PUB/in_app_translator
 
 environment:
   sdk: ^3.0.0
