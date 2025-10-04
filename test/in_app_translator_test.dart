@@ -94,7 +94,7 @@ void main() {
 
     test('Supports adding translations to mock delegate', () async {
       mockDelegate.addTranslation('hi', 'en_US', 'Hello');
-      final result = translator.tr('hi');
+      translator.tr('hi');
       await Future.delayed(Duration(milliseconds: 50));
       expect(translator.tr('hi'), 'Hello');
     });
