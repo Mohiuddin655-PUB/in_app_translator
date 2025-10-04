@@ -139,6 +139,13 @@ class Translator extends ChangeNotifier {
     return key;
   }
 
+  Future<String?> translate(String input, Locale locale) async {
+    if (input.isEmpty || _delegate == null) return null;
+    final translated = await _delegate!.translate(input, locale);
+    if (translated.isEmpty || translated == input) return null;
+    return translated;
+  }
+
   /// Save cached translations to the delegate before disposal.
   @override
   void dispose() {

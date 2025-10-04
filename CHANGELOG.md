@@ -1,3 +1,7 @@
+## 1.0.1
+
+* translate using locale and string support
+
 ## 1.0.0
 
 # Translator Features
