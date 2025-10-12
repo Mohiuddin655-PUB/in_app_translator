@@ -17,5 +17,5 @@ abstract class TranslatorDelegate {
 
   /// Save the serialized translation cache.
   /// [value] is the JSON-encoded string of all translations.
-  void save(String value) {}
+  void save(String source) {}
 }

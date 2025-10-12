@@ -1,2 +1,3 @@
-export 'src/delegate.dart';
-export 'src/translator.dart';
+export 'delegate.dart';
+export 'translator.dart';
+export 'widget.dart';

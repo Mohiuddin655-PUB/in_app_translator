@@ -1,3 +1,9 @@
+## 1.0.2
+
+- Auto translated string caching mechanism improved
+- TranslateAll support
+- Cached and Shared Translator instance support
+
 ## 1.0.1
 
 * translate using locale and string support
